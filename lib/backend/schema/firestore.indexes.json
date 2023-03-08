@@ -1,0 +1,36 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "anuncios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_creacion",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "anuncios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "propietario_anun",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_creacion",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

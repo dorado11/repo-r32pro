@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "890225007433",
+    "project_id": "databaser32-d7267",
+    "storage_bucket": "databaser32-d7267.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890225007433:android:9ac1dec01d8b200d655898",
+        "android_client_info": {
+          "package_name": "com.fraboli.r32pro01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890225007433-52sscuqd432rle1suq5anqqau7tmkoge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fraboli.r32pro01",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "890225007433-m3i09r2fdp9rrdin506htfft0k32bgdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALHrEQUb2yo1o9ZUNCE0Jpo1_56MKB9cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890225007433-m3i09r2fdp9rrdin506htfft0k32bgdf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890225007433-1445feirbgakohqhnrcer1ni455nhes4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fraboli.r32pro01"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

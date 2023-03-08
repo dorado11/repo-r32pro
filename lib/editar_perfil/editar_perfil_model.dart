@@ -1,0 +1,46 @@
+import '/auth/auth_util.dart';
+import '/backend/backend.dart';
+import '/backend/firebase_storage/storage.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
+import '/flutter_flow/upload_media.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
+class EditarPerfilModel extends FlutterFlowModel {
+  ///  State fields for stateful widgets in this page.
+
+  final formKey = GlobalKey<FormState>();
+  bool isMediaUploading = false;
+  FFUploadedFile uploadedLocalFile =
+      FFUploadedFile(bytes: Uint8List.fromList([]));
+  String uploadedFileUrl = '';
+
+  // State field(s) for TextField widget.
+  TextEditingController? textController1;
+  String? Function(BuildContext, String?)? textController1Validator;
+  // State field(s) for emailAddress widget.
+  TextEditingController? emailAddressController;
+  String? Function(BuildContext, String?)? emailAddressControllerValidator;
+  // State field(s) for TlfWhats widget.
+  TextEditingController? tlfWhatsController;
+  String? Function(BuildContext, String?)? tlfWhatsControllerValidator;
+  DateTime? datePicked;
+
+  /// Initialization and disposal methods.
+
+  void initState(BuildContext context) {}
+
+  void dispose() {
+    textController1?.dispose();
+    emailAddressController?.dispose();
+    tlfWhatsController?.dispose();
+  }
+
+  /// Additional helper methods are added here.
+
+}
